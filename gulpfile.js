@@ -2,6 +2,7 @@
 
 const handlebars = require('gulp-compile-handlebars');
 const rename = require('gulp-rename');
+const gulp = require('gulp')
 
 var templateData = {
 	groupName: '{Group Name Here}'
