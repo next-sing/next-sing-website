@@ -4,10 +4,6 @@ const handlebars = require('gulp-compile-handlebars');
 const rename = require('gulp-rename');
 const gulp = require('gulp')
 
-var templateData = {
-	groupName: '{Group Name Here}'
-}
-
 gulp.task('html', () => {
   return gulp.src('./src/pages/*.hbs')
     .pipe(handlebars({}, {
@@ -17,5 +13,5 @@ gulp.task('html', () => {
     .pipe(rename({
       extname: '.html'
     }))
-    .pipe(gulp.dest('./templates'));
+    .pipe(gulp.dest('./dist'));
 });
