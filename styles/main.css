@@ -1,6 +1,21 @@
 /* classes */
 /* colors: white, #67597A, #544E61, #FF72AA, #6E8894 */
 
+/* HTML elements */
+div>h2 {
+	font-family: 'Nunito', sans-serif;
+}
+
+div>h3 {
+	font-family: 'Nunito', sans-serif;
+}
+
+div {
+	font-family: 'Assistant', sans-serif;
+}
+
+/* classes */
+
 .flex-container {
 	display:flex;
 }
