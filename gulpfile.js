@@ -5,8 +5,18 @@ const rename = require('gulp-rename');
 const gulp = require('gulp')
 
 gulp.task('html', () => {
+	let templateData = {
+		groupName: 'Next Sing',
+		auditionDate: '2/9/19',
+		audStartTime: '10:00 am',
+		audEndTime: '10:00 pm',
+		auditionPlace: 'the Next TFL piano room',
+		audFormClose: '2/7/19 0:00 EST',
+		currentSemester: 'Spring 2019'
+	}
+
   return gulp.src('./src/pages/*.hbs')
-    .pipe(handlebars({}, {
+    .pipe(handlebars(templateData, {
       ignorePartials: true,
       batch: ['./src/partials']
     }))
