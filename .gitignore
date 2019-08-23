@@ -1,4 +1,7 @@
-wireframes/
-node_modules/
-Handlebars.js
-package-lock.json
+_site
+.sass-cache
+.jekyll-metadata
+
+# Bundle related folders
+.bundle/
+vendor/
