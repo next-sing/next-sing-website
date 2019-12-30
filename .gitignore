@@ -5,3 +5,9 @@ _site
 # Bundle related folders
 .bundle/
 vendor/
+
+# NPM
+node_modules/
+
+# Webpack
+dist/
