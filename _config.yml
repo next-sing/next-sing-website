@@ -31,6 +31,20 @@ defaults:
     values:
       slide: true
 
+exclude:
+  - copy-template.sh
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - tsconfig.json
+  - tslint.json
+  - webpack.config.js
+  - yarn.lock
+  - node_modules/
+  - src/
+  - vendor/
+
 show_excerpts: true
 
 header_pages:
@@ -38,15 +52,3 @@ header_pages:
 #  - audition.md # TODO: Uncomment this when auditions should be publicized and update the page contents.
   - concerts/index.md
   - people.html
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
