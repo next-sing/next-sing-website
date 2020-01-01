@@ -3,29 +3,16 @@ layout: page
 title: People
 permalink: /people/
 ---
-<h2>Officers</h2>
+<h2>Current Semester</h2>
+<h3>Exec</h3>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 1em;">
-  {% for officer in site.data.people.officers %}
+  {% for officer in site.data.people.current.officers %}
   <div>
-    <img src="/img/{{ officer.kerberos }}.png" style="height: 20vh; width: 100%; object-fit: cover;">
+    <img src="{{ "/assets/img/people/" | append: officer.kerberos | append: ".png" | relative_url }}" style="height: 20vh; width: 100%; object-fit: contain;">
     <div style="margin-top: 1em;">
       <p><b>{{ officer.name }}</b>, '{{ officer.year | slice: 2, 2 }}, Course {{ officer.course }}</p>
       <p><i>{{ officer.position }}</i></p>
       <p>{{ officer.description | markdownify }}</p>
-    </div>
-  </div>
-  {% endfor %}
-</div>
-
-<h2>Act Leads</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 1em;">
-  {% for lead in site.data.people.leads %}
-  <div>
-    <img src="/img/{{ lead.kerberos }}.png" style="height: 20vh; width: 100%; object-fit: cover;">
-    <div style="margin-top: 1em;">
-      <p><b>{{ lead.name }}</b>, '{{ lead.year | slice: 2, 2 }}, Course {{ lead.course }}</p>
-      <p><i>{{ lead.position }}</i></p>
-      <p>{{ lead.description | markdownify }}</p>
     </div>
   </div>
   {% endfor %}
