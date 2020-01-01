@@ -26,6 +26,12 @@ github_username:  next-sing
 markdown: kramdown
 theme: minima
 
+defaults:
+  - scope:
+      path: "assets/img/slides"
+    values:
+      slide: true
+
 show_excerpts: true
 
 # Exclude from processing.
