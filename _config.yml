@@ -17,8 +17,8 @@ title: Next Sing!
 email: next-sing-exec@mit.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The official website for Next Sing!, a student group at Next House.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sing" # the subpath of your site, e.g. /blog
+url: "https://next.mit.edu/sing" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  next-sing
 
