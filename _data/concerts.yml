@@ -1,0 +1,103 @@
+fall19:
+  skit:
+    theme: Introducing Obsidian feat. Wash Lava
+    performers:
+      - Julian Hernandez
+      - Tommy Adebiyi
+      - Brian Hoh
+      - Grace Tang
+      - Freya Edholm
+      - Anders Olsen
+      - Aron Ricardo Perez-Lopez
+      - Melissa Stok
+      - Sophie Mori
+      - Cynthia Liu
+      - Daniel Whatley
+  acts:
+    - title: osu!mix
+      artists: Various Artists
+      leads: Daniel Whatley, Cynthia Liu, Cory Lynch
+      performers: >
+        Tommy Adebiyi, Renbin Liu, Alice Nguyen, Anders Olsen, Nishit Protyasha
+      description: >
+        OSU
+    - title: Colors of the Wind (from Disney's Pocahontas)
+      artists: Stephen Schwartz and Alan Menken
+      leads: Anthony Cheng
+      performers: >
+        Maela Hickling, Natasha Stark, Mriganka Mandal, Ashley Lin, Anthony Cheng, Tony Ou, Derrick Xiong
+      description: >
+        Let go of your prejudices and open yourself to possibilities!
+    - title: Memory (from Cats)
+      artists: Andrew Lloyd Weber
+      leads: Shannon Weng
+      performers: >
+        Jessie Hendricks, Mihir Singal, Ashley Chen, Cynthia Liu, Melissa Stok, David Xiong, Jonathan Samayoa
+      description: >
+        Daylight! I must wait for the sunrise; I mist think of a new life, and I mustn't give in. When the dawn comes,
+        tonight will be a memory too, and a new day will begin.
+    - title: FRIENDS
+      artists: Marshmello & Anne-Marie
+      leads: Tammy Le, Alice Nguyen
+      performers: >
+        Tammy Le, Alice Nguyen, Tiffany Trinh, Aron Perez-Lopez, Jamie Geng, Joyce An, Julian Hernandez
+      description: >
+        F-R-I-E-N-D-S, that's how you fucking spell FRIENDS. Get that shit inside your head!
+    - title: Wii Shop Bling
+      artists: gravyboy
+      leads: Jaeyoung Jung
+      performers: >
+        Michael Tang (solo), Natasha Stark, Melody Tan, Alice Nguyen, Jaeyoung Jung, Julian Hernandez, Anthony Cheng
+      description: >
+        You used to call me on Wii Speak Channel
+    - title: Green Day Mashup
+      artists: Green Day
+      leads: Brian Hoh
+      performers: >
+        Brian Hoh, Tong Zhao, Melody Tan, Alice Nguyen
+      description: >
+        September is long gone, and we’re wide awake
+    - title: Buttons
+      artists: The Pussycat Dolls
+      leads: Cynthia Liu
+      performers: >
+        Cynthia Liu, Mriganka Mandal, Bee Shi, Tiffany Trinh, Shannon Weng
+      description: >
+        I’m tellin’ you to loosen all my buttons babe, but I ain’t see nothin’
+    - title: Isn't She Lovely
+      artists: Stevie Wonder
+      leads: Anthony Cheng
+      performers: >
+        Diego Barea, Anthony Cheng, Cory Lynch, Cody Moose, Tommy Adebiyi
+      description: >
+        Pure joy from the birth of something new
+
+        (and also the result, many months later, of buttons being loosened).
+    - title: Coldplay Medley
+      artists: Coldplay
+      leads: Justin Park
+      performers: >
+        Freya Edholm, Jason Lee, Sophie Mori, Anders Olsen, Justin Park, Tiffany Trinh
+      description: >
+        Coldplay? Coldplay. Four fantastic fan favorites.
+    - title: The Way I Do
+      artists: Bishop Briggs
+      leads: Anthony Cheng
+      performers: >
+        Jamie Geng, Shannon Weng, Melinda Sun, Katie Wu, Renbin Liu, Simon Huang, Justin Park, Anthony Cheng
+      description: >
+        Prayed my heart out, but you will never feel the way I do
+    - title: Welcome to the Black Parade
+      artists: My Chemical Romance
+      leads: Tammy Le
+      performers: >
+        Maela Hickling, Tammy Le, Emily Wang, Diego Barea, Tong Zhao, Brian Hoh, Simon Chuang, Jason Chen
+      description: >
+        Son when you grow up, will you be the savior of the broken, the beaten, and the damned?
+    - title: Glad You Came
+      artists: The Wanted
+      leads: Tammy Le, Alice Nguyen
+      performers: >
+        Maela Hickling, Grace Tang, Tammy Le, Umang Bansal, Julie Meng, Michael Tang, Alice Nguyen
+      description: >
+        All that counts is here and now. My universe will never be the same; I'm glad you came…
