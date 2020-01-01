@@ -33,6 +33,12 @@ defaults:
 
 show_excerpts: true
 
+header_pages:
+  - about.md
+#  - audition.md # TODO: Uncomment this when auditions should be publicized and update the page contents.
+  - concerts/index.md
+  - people.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
