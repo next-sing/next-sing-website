@@ -16,6 +16,14 @@ module.exports = {
           'css-loader'
         ]
       },
+      {
+        loader: 'ts-loader',
+        options: {
+          appendTsSuffixTo: [/\.vue$/],
+        },
+        test: /\.ts?$/,
+        exclude: /node_modules/
+      },
     ]
   },
   resolve: {
@@ -28,6 +36,6 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'css/app.css'
-    }),
+    })
   ]
 }
