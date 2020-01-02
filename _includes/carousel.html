@@ -19,16 +19,6 @@
     <h1>Next Sing</h1>
     <p>Some snippet about Next Sing.</p>
   </div>
-  <ol class="carousel-indicators">
-    {% assign image_files = site.static_files | where: "slide", true %}
-    {% for _ in image_files %}
-      <li data-target="#carousel" data-slide-to"{{ forloop.index0 }}"
-      {% if forloop.index0 == 0 %}
-        class="active"
-      {% endif %}
-      ></li>
-    {% endfor %}
-  </ol>
   <div class="carousel-inner" style="height: 100%;">
     {% assign image_files = site.static_files | where: "slide", true %}
     {% for image in image_files %}
@@ -37,7 +27,13 @@
         active
       {% endif %}
       " style="height: 100%;">
-        <img class="d-block w-100" src="{{ image.path | relative_url }}" alt="Slide {{ forloop.index0 }}" style="object-fit: cover; height: 100%;">
+        <img class="d-block w-100"
+        {% if forloop.index0 == 0 %}
+          src="{{ image.path | relative_url }}"
+        {% else %}
+          data-src="{{ image.path | relative_url }}"
+        {% endif %}
+        alt="Slide {{ forloop.index0 }}" style="object-fit: cover; height: 100%;">
       </div>
     {% endfor %}
     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev" style="margin: 100px 0;">
@@ -50,3 +46,12 @@
     </a>
   </div>
 </div>
+<script>
+  $(() => {
+    return $('#carousel').on('slide.bs.carousel', (ev) => {
+      let lazy = $(ev.relatedTarget).find('img[data-src]')
+      lazy.attr('src', lazy.data('src'))
+      lazy.removeAttr('data-src')
+    })
+  })
+</script>
