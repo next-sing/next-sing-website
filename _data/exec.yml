@@ -1,0 +1,76 @@
+current:
+  - position: President, Lighting Director
+    name: Shannon Weng
+    kerberos: sweng
+    year: 2022
+    course: 5-7
+    description: >
+      I joined Next Sing because I had zero former singing experience and didn’t want to seriously play the piano in
+      college. I thought singing was fun (and I wasn’t 100% terrible at it) and singing with instruments is even
+      better! So yeah I guess it worked out!
+  - position: President
+    name: Tommy Adebiyi
+    kerberos: tadebiyi
+    year: 2021
+    course: 2A-PD
+    description: >
+      cynthia roped me into this, but I *do* like singing so it wasn't hard for her. I also like playing video games
+      and doing computery stuff and buildy/designy course 2 stuff :P
+  - position: Act Coordinator
+    name: Cynthia Liu
+    kerberos: cynliu98
+    year: 2020, expected MEng 2021
+    course: 6-3/18
+    description: >
+      Hi! I’m Cynthia. I’m the person who thought of Next Sing while eating dinner in the stud. So if you think
+      anything about Next Sing just reeks of mediocre fast-casual food, you can blame me
+  - position: Publicity Chair
+    kerberos: bhoh
+    name: Brian Hoh
+    year: 2022
+    course: 16
+    description: >
+      Rock on!
+  - position: Art Director
+    kerberos: gracecai
+    name: Grace Cai
+    year: 2023
+    course: 6-3
+    description: >
+      A child who likes CS, drawing stuff, taking walks, and deep questions
+  - position: Show Coordinator, Treasurer
+    name: Natasha Stark
+    kerberos: nstark
+    year: 2022
+    course: 6-2
+    description: >
+      E
+  - position: Show Coordinator
+    name: Daniel Whatley
+    kerberos: dwhatley
+    year: 2020
+    course: 6-2
+    description: >
+      I'm a professional noise producer and keyboard masher.
+  - position: Sound Director
+    name: Daniel Liu
+    kerberos: dansl
+    year: 2022
+    course: 18
+    description: >
+      Hi guys it's Daniel here.
+  - position: Webmaster
+    kerberos: mwnguyen
+    name: Alice Nguyen
+    year: 2022
+    course: 6-2
+    description: >
+      E
+  - position: Photographer
+    kerberos: jsamayoa
+    name: Jonathan Samayoa
+    year: 2022
+    course: 6-2
+    description: >
+      E
+past:
