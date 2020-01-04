@@ -1,18 +1,5 @@
 fall19:
-  skit:
-    theme: Introducing Obsidian feat. Wash Lava
-    performers:
-      - Julian Hernandez
-      - Tommy Adebiyi
-      - Brian Hoh
-      - Grace Tang
-      - Freya Edholm
-      - Anders Olsen
-      - Aron Ricardo Perez-Lopez
-      - Melissa Stok
-      - Sophie Mori
-      - Cynthia Liu
-      - Daniel Whatley
+  theme: Introducing Obsidian feat. Wash Lava
   acts:
     - title: osu!mix
       artists: Various Artists
@@ -21,6 +8,7 @@ fall19:
         Tommy Adebiyi, Renbin Liu, Alice Nguyen, Anders Olsen, Nishit Protyasha
       description: >
         OSU
+      video: https://www.youtube.com/watch?v=qQnGsfPEpZs&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=3&t=0s
     - title: Colors of the Wind (from Disney's Pocahontas)
       artists: Stephen Schwartz and Alan Menken
       leads: Anthony Cheng
@@ -28,6 +16,7 @@ fall19:
         Maela Hickling, Natasha Stark, Mriganka Mandal, Ashley Lin, Anthony Cheng, Tony Ou, Derrick Xiong
       description: >
         Let go of your prejudices and open yourself to possibilities!
+      video: https://www.youtube.com/watch?v=hAipZN9ETco&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=4&t=0s
     - title: Memory (from Cats)
       artists: Andrew Lloyd Weber
       leads: Shannon Weng
@@ -36,6 +25,7 @@ fall19:
       description: >
         Daylight! I must wait for the sunrise; I mist think of a new life, and I mustn't give in. When the dawn comes,
         tonight will be a memory too, and a new day will begin.
+      video: https://www.youtube.com/watch?v=XvC-fdd_Vfs&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=6&t=0s
     - title: FRIENDS
       artists: Marshmello & Anne-Marie
       leads: Tammy Le, Alice Nguyen
@@ -43,6 +33,7 @@ fall19:
         Tammy Le, Alice Nguyen, Tiffany Trinh, Aron Perez-Lopez, Jamie Geng, Joyce An, Julian Hernandez
       description: >
         F-R-I-E-N-D-S, that's how you fucking spell FRIENDS. Get that shit inside your head!
+      video: https://www.youtube.com/watch?v=lp1jixgB738&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=7&t=0s
     - title: Wii Shop Bling
       artists: gravyboy
       leads: Jaeyoung Jung
@@ -50,6 +41,7 @@ fall19:
         Michael Tang (solo), Natasha Stark, Melody Tan, Alice Nguyen, Jaeyoung Jung, Julian Hernandez, Anthony Cheng
       description: >
         You used to call me on Wii Speak Channel
+      video: https://www.youtube.com/watch?v=kRPo-m4ImRY&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=8&t=0s
     - title: Green Day Mashup
       artists: Green Day
       leads: Brian Hoh
@@ -57,6 +49,7 @@ fall19:
         Brian Hoh, Tong Zhao, Melody Tan, Alice Nguyen
       description: >
         September is long gone, and we’re wide awake
+      video: https://www.youtube.com/watch?v=Wqlafu4pyxs&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=10&t=0s
     - title: Buttons
       artists: The Pussycat Dolls
       leads: Cynthia Liu
@@ -64,6 +57,7 @@ fall19:
         Cynthia Liu, Mriganka Mandal, Bee Shi, Tiffany Trinh, Shannon Weng
       description: >
         I’m tellin’ you to loosen all my buttons babe, but I ain’t see nothin’
+      video: https://www.youtube.com/watch?v=OjNBbD1p-lw&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=11&t=0s
     - title: Isn't She Lovely
       artists: Stevie Wonder
       leads: Anthony Cheng
@@ -73,6 +67,7 @@ fall19:
         Pure joy from the birth of something new
 
         (and also the result, many months later, of buttons being loosened).
+      video: https://www.youtube.com/watch?v=s051joz2Cd8&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=12&t=0s
     - title: Coldplay Medley
       artists: Coldplay
       leads: Justin Park
@@ -80,6 +75,7 @@ fall19:
         Freya Edholm, Jason Lee, Sophie Mori, Anders Olsen, Justin Park, Tiffany Trinh
       description: >
         Coldplay? Coldplay. Four fantastic fan favorites.
+      video: https://www.youtube.com/watch?v=LdKh7dvJoJk&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=14&t=0s
     - title: The Way I Do
       artists: Bishop Briggs
       leads: Anthony Cheng
@@ -87,6 +83,7 @@ fall19:
         Jamie Geng, Shannon Weng, Melinda Sun, Katie Wu, Renbin Liu, Simon Huang, Justin Park, Anthony Cheng
       description: >
         Prayed my heart out, but you will never feel the way I do
+      video: https://www.youtube.com/watch?v=SEe10G_4EJ0&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=15&t=0s
     - title: Welcome to the Black Parade
       artists: My Chemical Romance
       leads: Tammy Le
@@ -94,6 +91,7 @@ fall19:
         Maela Hickling, Tammy Le, Emily Wang, Diego Barea, Tong Zhao, Brian Hoh, Simon Chuang, Jason Chen
       description: >
         Son when you grow up, will you be the savior of the broken, the beaten, and the damned?
+      video: https://www.youtube.com/watch?v=A47Kw9ak3zE&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=16&t=0s
     - title: Glad You Came
       artists: The Wanted
       leads: Tammy Le, Alice Nguyen
@@ -101,3 +99,4 @@ fall19:
         Maela Hickling, Grace Tang, Tammy Le, Umang Bansal, Julie Meng, Michael Tang, Alice Nguyen
       description: >
         All that counts is here and now. My universe will never be the same; I'm glad you came…
+      video: https://www.youtube.com/watch?v=PyrTa5c7xRA&list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB&index=18&t=0s

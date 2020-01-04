@@ -5,20 +5,8 @@
   }
 </style>
 <div style="display: flex; flex-direction: column; align-items: center;">
-  <h2>Concert Theme: {{ site.data.concerts[include.semester].skit.theme }}</h2>
-  <div style="display: table; text-align: center;">
-    <img class="banner" alt="Concert Banner" src="{{ "/assets/img/concerts/" | append: include.semester | append: ".png" | relative_url }}">
-    <p style="display: table-caption; caption-side: bottom;">
-      <b>Skit Performers:</b>
-      {% for performer in site.data.concerts[include.semester].skit.performers %}
-      <span>
-        {{ performer }}{% if forloop.index != forloop.length %}, {% endif %}
-      </span>
-      {% endfor %}
-    </p>
-  </div>
-  <h2>Concert Playlist</h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZNQc8zWVNCRvthpUTcOsoYZM_ldgE2cB" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+  <h2>{{ site.data.concerts[include.semester].theme }}</h2>
+  <img class="banner" alt="Concert Banner" src="{{ "/assets/img/concerts/" | append: include.semester | append: ".png" | relative_url }}">
   <hr>
   <h2>Acts</h2>
   <table>
@@ -29,6 +17,7 @@
       <th>Act Lead(s)</th>
       <th>Performers</th>
       <th>Description</th>
+      <th>Video</th>
     </tr>
     </thead>
     <tbody>
@@ -39,6 +28,7 @@
       <td>{{ act.leads }}</td>
       <td>{{ act.performers }}</td>
       <td>{{ act.description }}</td>
+      <td><a href="{{ act.video }}">Link</a></td>
     </tr>
     {% endfor %}
     </tbody>
