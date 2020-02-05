@@ -40,11 +40,14 @@ current:
       A child who likes CS, drawing stuff, taking walks, and deep questions
   - position: Show Coordinator, Treasurer
     name: Natasha Stark
-    kerberos: nstark
-    year: 2022
-    course: 6-2
+    kerberos: nnmss
+    year: 2020
+    course: 20
     description: >
-      E
+      A native of South Texas, Natasha has performed with many student groups at MIT, mostly in theater. She was very
+      pleased to branch out into acapella when Next Sing was founded, and surprised at how often she is asked to fake
+      being a soprano. She also enjoys dance, late-night discussions with her neighbors, and the fascinating
+      possibilities of biological engineering.
   - position: Show Coordinator
     name: Daniel Whatley
     kerberos: dwhatley
@@ -65,12 +68,13 @@ current:
     year: 2022
     course: 6-2
     description: >
-      E
+      resident webmaster who writes code and makes noise. occasionally, the code and noises i produce are of decent
+      quality.
   - position: Photographer
     kerberos: jsamayoa
     name: Jonathan Samayoa
-    year: 2022
+    year: 2020
     course: 6-2
     description: >
-      E
+      I don't actually sing. Idk why I'm here. I take photos and pretend to play drums.
 past:
