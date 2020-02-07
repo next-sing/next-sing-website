@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Exec
-permalink: /exec/
+title: Officers
+permalink: /officers/
 ---
 <h2>Current Semester</h2>
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: 1em;">
-  {% for officer in site.data.exec.current %}
+  {% for officer in site.data.officers.current %}
   <div>
     <img src="{{ "/assets/img/people/" | append: officer.kerberos | append: ".png" | relative_url }}" style="height: 20vh; width: 100%; object-fit: contain;">
     <div style="margin-top: 1em;">

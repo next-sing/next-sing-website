@@ -19,7 +19,7 @@ all students who like music a casual, flexible environment to learn and perform 
 Unlike other music groups, Next Sing is structured like DanceTroupe or Asian Dance Team. Prospective members choose
 and audition for specific acts. Members will only perform in acts they are interested in. Each act holds separate
 rehearsals for 1 hr/wk. These rehearsals are arranged and lead by "act leads." All group-wide activities, such as
-showings, social activities, and the biannual showcase are managed by the [officers](/people/).
+showings, social activities, and the biannual showcase are managed by the [officers]({{ site.baseurl }}/officers/).
 
 ### Allowed Acts
 
