@@ -49,6 +49,6 @@ show_excerpts: true
 
 header_pages:
   - about.md
-#  - audition.md # TODO: Uncomment this when auditions should be publicized and update the page contents.
+  - audition.md
   - officers.html
   - semesters/index.md
